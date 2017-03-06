@@ -1,0 +1,515 @@
+﻿
+/* Overall */
+
+html
+{
+	padding: 0px; margin: 0px;
+}
+
+body
+{
+	padding: 0px; margin: 0px;
+	
+	font-size: 13px;
+	color: #243138;
+
+	background-color: #fcfcfc;
+}
+
+/* Text */
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	background-color: #dcebfa;
+	text-decoration: underline;
+}
+
+a:link
+{
+	color: #5A43D4;
+}
+
+a:visited
+{
+	color: #7e60ce;
+}
+
+/* div wrapper */
+
+div.wrap:after
+{
+	display: block; clear: both;
+	visibility: hidden;
+	height: 0px;
+	font-size: 0em;
+	line-height: 0px;
+	content: "";
+}
+
+/* Overall icon  */
+
+div.icon-def
+{
+	width: 7px; height: 7px;
+	margin: 7px;
+	border-radius: 1px;
+	background-color: #508df4;
+	display: inline; float: left;
+}
+
+div.icon-small-def
+{
+	width: 3px; height: 3px;
+	margin: 9px;
+	border-radius: 1px;
+	background-color: #508df4;
+	display: inline; float: left;
+}
+
+/* Global top */
+
+div#global-top
+{
+/*	margin: 0px auto 0px;*/
+	width: 720px; min-height: 21px;
+}
+
+div#top-left
+{
+	width: 220px; min-height: 21px; height: 100%;
+	display: block; float: left;
+}
+
+div#top-right
+{
+	width: 220px; min-height: 21px; height: 100%;
+	display: block; float: left;
+}
+
+div#top-middle
+{
+	width: 720px; min-height: 21px; height: 100%;
+	display: block; float: left;
+}
+
+/* Global contents */
+
+div#global-contents
+{
+/*	margin: 0px auto 0px;*/
+	width: 720px; min-height: 600px;
+}
+
+div#contents-left
+{
+	width: 220px; min-height: 600px;
+	display: block; float: left;
+}
+
+div#contents-right
+{
+	width: 220px; min-height: 600px;
+	display: block; float: left;
+}
+
+div#contents-middle
+{
+	width: 720px; min-height: 600px;
+	display: block; float: left;
+}
+
+/* Global bottom */
+
+div#global-bottom
+{
+/*	margin: 0px auto 0px;*/
+	width: 720px; min-height: 21px;
+}
+
+div#bottom-left
+{
+	width: 220px; min-height: 21px; height: 100%;
+	display: block; float: left;
+}
+
+div#bottom-right
+{
+	width: 220px; min-height: 21px; height: 100%;
+	display: block; float: left;
+}
+
+div#bottom-middle
+{
+	width: 720px; min-height: 21px; height: 100%;
+	display: block; float: left;
+}
+
+/* Top middle */
+
+div#top-middle div.menu
+{
+	height: 100%; width: 100%;
+	display: block; float: left;
+	border-bottom: solid 1px #508df4;
+}
+
+div#top-middle div.menu div.menu-title
+{
+	padding: 4px 10px 4px 10px;
+	display: inline; float: left;
+	max-height: 13px;
+	max-width: 480px;
+	overflow: hidden;
+}
+
+div#top-middle div.menu div.menu-link
+{
+	display: block; float: right;
+}
+
+div#top-middle div.menu div.menu-link a
+{
+	padding: 3px 5px 3px 20px;
+	display: block;
+	text-decoration: none;
+	border: solid 1px transparent;
+	border-radius: 1px;
+}
+
+div#top-middle div.menu div.menu-link a:link,
+div#top-middle div.menu div.menu-link a:visited
+{
+	color: #5A43D4;
+}
+
+div#top-middle div.menu div.menu-link a:hover,
+div#top-middle div.menu div.menu-link a:active
+{
+	color: #E34444;
+	background-color: #fcfcfc;
+	border: solid 1px #508df4;
+}
+
+/* Contents left */
+
+div#contents-left div.box
+{
+	margin: 5px 5px 0px 0px;
+	border-top: solid 1px #508df4;
+	border-right: solid 1px #508df4;
+	border-radius: 1px;
+}
+
+div#contents-left div.box div.box-title
+{
+	padding: 4px 10px 4px 10px;
+	display: block; float: left;
+	max-height: 13px;
+	max-width: 200px;
+	overflow: hidden;
+
+	border-bottom: solid 1px #508df4;
+	border-right: solid 1px #508df4;
+	border-radius: 1px;
+}
+
+div#contents-left div.box div.nav
+{
+	padding: 10px 4px 4px 10px;
+
+	max-width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+
+div#contents-left div.box div.nav ul.nav-list
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+}
+
+div#contents-left div.box div.nav ul.nav-list li.nav-link
+{
+}
+
+div#contents-left div.box div.nav ul.nav-list li.nav-shift-1
+{
+	margin-left: 13px;
+}
+
+div#contents-left div.box div.nav ul.nav-list li.nav-shift-2
+{
+	margin-left: 26px;
+}
+
+div#contents-left div.box div.nav ul.nav-list li.nav-link a,
+div#contents-left div.box div.nav ul.nav-list li.nav-link span
+{
+	padding: 3px 5px 3px 20px;
+	display: block;
+	text-decoration: none;
+	border: solid 1px transparent;
+	border-radius: 1px;
+}
+
+div#contents-left div.box div.nav ul.nav-list li.nav-link a:link,
+div#contents-left div.box div.nav ul.nav-list li.nav-link a:visited
+{
+	color: #5A43D4;
+}
+
+div#contents-left div.box div.nav ul.nav-list li.nav-link a:hover,
+div#contents-left div.box div.nav ul.nav-list li.nav-link a:active
+{
+	color: #E34444;
+	background-color: #fcfcfc;
+	border: solid 1px #508df4;
+}
+
+/* Contents middle */
+
+div#contents-middle div.doc
+{
+	margin-top: 5px;
+	border-radius: 1px;
+	padding: 10px;
+	background-color: #f9f9f9;
+}
+
+div#contents-middle div.dialog
+{
+	border-top: solid 1px #508df4;
+	border-bottom: solid 1px #508df4;
+	margin-top: 5px;
+	border-radius: 1px;
+}
+
+div#contents-middle div.dialog div.dialog-title
+{
+	padding: 4px 10px 4px 10px;
+	display: block; float: left;
+	max-height: 13px;
+	max-width: 200px;
+	overflow: hidden;
+
+	border-bottom: solid 1px #508df4;
+	border-right: solid 1px #508df4;
+	border-radius: 1px;
+}
+
+div#contents-middle div.dialog div.dialog-message
+{
+	display: block;
+	clear: both;
+	padding: 10px 4px 10px 10px;
+}
+
+/* Contents right */
+
+
+
+
+
+
+
+
+
+
+div#contents-right div.box
+{
+	margin: 5px 0px 0px 5px;
+
+	border-top: solid 1px #508df4;
+	border-left: solid 1px #508df4;
+	border-radius: 1px;
+}
+
+div#contents-right div.box div.box-title
+{
+	padding: 4px 10px 4px 10px;
+	display: block; float: left;
+	max-height: 13px;
+	max-width: 200px;
+	overflow: hidden;
+
+	border-bottom: solid 1px #508df4;
+	border-right: solid 1px #508df4;
+	border-radius: 1px;
+}
+
+div#contents-right div.box div.nav
+{
+	padding: 10px 4px 4px 10px;
+
+	max-width: 100%;
+	clear:both;
+	overflow: hidden;
+}
+
+div#contents-right div.box div.nav ul.nav-list
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+}
+
+div#contents-right div.box div.nav ul.nav-list li.nav-link
+{
+}
+
+div#contents-right div.box div.nav ul.nav-list li.nav-shift-1
+{
+	margin-left: 13px;
+}
+
+div#contents-right div.box div.nav ul.nav-list li.nav-shift-2
+{
+	margin-left: 26px;
+}
+
+div#contents-right div.box div.nav ul.nav-list li.nav-link a,
+div#contents-right div.box div.nav ul.nav-list li.nav-link span
+{
+	padding: 3px 5px 3px 20px;
+	display: block;
+	text-decoration: none;
+	border: solid 1px transparent;
+	border-radius: 1px;
+}
+
+div#contents-right div.box div.nav ul.nav-list li.nav-link a:link,
+div#contents-right div.box div.nav ul.nav-list li.nav-link a:visited
+{
+	color: #5A43D4;
+}
+
+div#contents-right div.box div.nav ul.nav-list li.nav-link a:hover,
+div#contents-right div.box div.nav ul.nav-list li.nav-link a:active
+{
+	color: #E34444;
+	background-color: #fcfcfc;
+	border: solid 1px #508df4;
+	border-bottom: solid 1px #508df4;
+}
+
+
+
+
+
+
+/* System layer */
+
+div#layer-system
+{
+	top: 0px; left: 0px;
+	width: 100%; height: 100%;
+	position: absolute;
+	z-index: 1000;
+}
+
+div#layer-system #back
+{
+	position: fixed;
+	top: 0px; left: 0px;
+	width: 100%; height: 100%;
+	background-color: #fcfcfc;
+	opacity: 0.8;
+}
+
+div#layer-system div.dialog
+{
+	position: fixed;
+	top: 50%; left: 50%;
+
+	display: block; float: left;
+
+	background-color: #fcfcfc;
+
+	border: solid 1px #508df4;
+	border-radius: 1px;
+
+	z-index: 10;
+}
+
+div#layer-system div.dialog div.dialog-title
+{
+	padding: 4px 10px 4px 10px;
+	display: block; float: left;
+	max-height: 13px;
+	max-width: 200px;
+	overflow: hidden;
+
+	border-bottom: solid 1px #508df4;
+	border-right: solid 1px #508df4;
+	border-radius: 1px;
+}
+
+div#layer-system div.dialog div.dialog-message
+{
+	display: block;
+	clear: both;
+	padding: 10px 4px 10px 10px;
+}
+
+/* Login dialog */
+
+div#login-dialog
+{
+	margin: -100px 0px 0px -160px;
+	max-width: 320px; max-height: 200px;
+}
+
+div#wait-dialog
+{
+	margin: -80px 0px 0px -160px;
+	max-width: 320px; max-height: 160px;
+}
+
+/* Forms */
+
+.input-line
+{
+	width: 200px;
+}
+
+.input-password
+{
+	width: 200px;
+}
+
+.input-button
+{
+}
+
+div.form-left
+{
+	display: table-cell;
+	width: 80px; height: 100%;
+	min-height: 30px;
+	padding: 4px;
+	vertical-align: middle;
+}
+
+div.form-right
+{
+	display: table-cell;
+	height: 100%;
+	min-height: 30px;
+	padding: 4px;
+	vertical-align: middle;
+}
+
+div.form-line
+{
+	height: 100%;
+	min-height: 30px;
+	padding: 4px;
+}
